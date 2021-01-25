@@ -1,0 +1,83 @@
+.modal {
+  position: absolute;
+  top: 64px;
+  right: 250px;
+  background-color: white;
+  z-index: 1;
+  padding: 20px 0 0px;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border: 1px solid lightgray;
+}
+
+.modal_top {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.modal_name {
+  margin-left: 10px;
+}
+
+.modal_name > h2 {
+  font-size: 16px;
+}
+
+.modal_name > p {
+  color: gray;
+  font-size: 12px;
+}
+
+.modal_viewProfile {
+  border: 1px solid blue;
+  margin: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 5px 0;
+}
+.modal_viewProfile > h2 {
+  font-size: 14px;
+  text-align: center;
+  color: blue;
+}
+
+.modal_viewProfile:hover {
+  background-color: blue;
+}
+.modal_viewProfile:hover > h2 {
+  color: white;
+}
+
+.modal_middle {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+}
+.modal_middle > h2 {
+  font-size: 14px;
+  padding: 0px 20px 5px;
+}
+.modal_middle > h4 {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 0;
+  cursor: pointer;
+  color: gray;
+  padding: 5px 20px;
+}
+.modal_middle > h4:hover {
+  background-color: whitesmoke;
+}
+
+.signout {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 5px 0;
+  cursor: pointer;
+  color: gray;
+  border-top: 1px solid lightgray;
+  padding: 10px 20px 10px;
+}
+.signout:hover {
+  background-color: whitesmoke;
+}
